@@ -1,0 +1,26 @@
+2022-09-28 22:35:24.600  INFO 14712 --- [restartedMain] c.e.a.AddressBookApplication             : Starting AddressBookApplication using Java 11.0.16 on hp-HP-ProBook-440-G5 with PID 14712 (/home/hp/IdeaProjects/AddressBook_Application/target/classes started by hp in /home/hp/IdeaProjects/AddressBook_Application)
+2022-09-28 22:35:24.602  INFO 14712 --- [restartedMain] c.e.a.AddressBookApplication             : The following 1 profile is active: "dev"
+2022-09-28 22:35:24.646  INFO 14712 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-28 22:35:24.647  INFO 14712 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-28 22:35:25.327  INFO 14712 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-28 22:35:25.367  INFO 14712 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interfaces.
+2022-09-28 22:35:25.891  INFO 14712 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 7171 (http)
+2022-09-28 22:35:25.898  INFO 14712 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-28 22:35:25.898  INFO 14712 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-28 22:35:25.957  INFO 14712 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-28 22:35:25.958  INFO 14712 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1310 ms
+2022-09-28 22:35:26.082  INFO 14712 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-09-28 22:35:26.134  INFO 14712 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.11.Final
+2022-09-28 22:35:26.249  INFO 14712 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-09-28 22:35:26.322  INFO 14712 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-28 22:35:26.609  INFO 14712 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-09-28 22:35:26.628  INFO 14712 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-09-28 22:35:27.314  INFO 14712 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-09-28 22:35:27.323  INFO 14712 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-28 22:35:27.650  WARN 14712 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-28 22:35:27.889  WARN 14712 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2022-09-28 22:35:27.977  INFO 14712 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-28 22:35:28.009  INFO 14712 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 7171 (http) with context path ''
+2022-09-28 22:35:28.022  INFO 14712 --- [restartedMain] c.e.a.AddressBookApplication             : Started AddressBookApplication in 3.847 seconds (JVM running for 4.531)
+2022-09-28 22:35:28.025  INFO 14712 --- [restartedMain] c.e.a.AddressBookApplication             : 
+Hello! Welcome to Address Book Project!
