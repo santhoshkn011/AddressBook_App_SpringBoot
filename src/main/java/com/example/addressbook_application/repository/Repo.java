@@ -17,6 +17,6 @@ public interface Repo extends JpaRepository<AddressBook, Long> {
     List<AddressBook> findUserByState(String state);
     @Query(value="SELECT * FROM address_book WHERE user_id = user_id AND zip = :zip", nativeQuery=true)
     List<AddressBook> findUserByZip(String zip);
-    @Query(value="SELECT * FROM address_book WHERE user_id = user_id AND email = :email", nativeQuery=true)
+    @Query(value="SELECT * FROM address_book WHERE user_id = user_id AND email_address = :email", nativeQuery=true)
     List<AddressBook> findUserByEmail(String email);
 }

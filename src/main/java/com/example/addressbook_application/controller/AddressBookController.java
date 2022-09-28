@@ -90,7 +90,6 @@ public class AddressBookController {
         return new ResponseEntity<>(respDTO, HttpStatus.OK);
     }
     //insert data using Utility layer and generated Token
-    @CrossOrigin
     @PostMapping("/insert")
     public ResponseEntity<String>AddAddressDetails(@Valid @RequestBody AddressBookDTO addressDto) {
         String token = service.insertData(addressDto);
@@ -98,7 +97,6 @@ public class AddressBookController {
         return new ResponseEntity(respDTO, HttpStatus.CREATED);
     }
     //retrieve the User data with token value
-    @CrossOrigin
     @GetMapping("/getUser/{token}")
     public ResponseEntity<String>getUserDetails(@PathVariable String token){
         Optional<AddressBook> userData = service.getUserDataByToken(token);
@@ -107,7 +105,6 @@ public class AddressBookController {
         return new ResponseEntity(respDTO, HttpStatus.OK);
     }
     //Get all the data with any Token
-    @CrossOrigin
     @GetMapping("/getAll/{token}")
     public ResponseEntity<String>getAllData(@PathVariable String token){
         List<AddressBook> userData = service.getAllDataByToken(token);

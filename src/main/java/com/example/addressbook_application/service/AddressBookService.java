@@ -54,7 +54,7 @@ public class AddressBookService implements IAddressBookService {
                     +"City: "+existingData.getCity()+"\n"+"State: "+existingData.getState()+"\n"+"Zip Code: "+existingData.getZip()+"\n"+
                     "Contact Number: "+existingData.getContactNumber()+"\n"+"Email Address: "+existingData.getEmailAddress();
             //sending email
-            emailSender.sendEmail(existingData.getEmailAddress(),"Data Edited!!!", userData);
+            emailSender.sendEmail(addressBookDTO.getEmailAddress(),"Data Edited!!!", userData);
 
             return repository.save(existingData);
         } else
